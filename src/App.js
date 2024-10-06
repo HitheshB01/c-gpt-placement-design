@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Jobs from './components/Jobs';
 import Profile from './components/Profile';
 import Form from './pages/Form';
+import Question from './pages/Question';
 
 const router = createBrowserRouter([
   {
@@ -26,10 +27,12 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <RouterProvider router={router} />
-      <Footer /> */}
-      <Form/>
+      <Footer />
+      <Question/>
+      {/* <Form/> */}
+
     </div>
   );
 };

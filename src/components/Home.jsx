@@ -13,7 +13,7 @@ const Home = () => {
         <h3 className="text-2xl font-bold mb-4">Recent Job Postings</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Add Job Card Components Here */}
-          <div className="bg-white shadow-md rounded-lg p-4">
+          <div className=" shadow-md bg-slate-600 rounded-lg p-4">
             <h4 className="text-xl font-bold mb-2">Software Engineer</h4>
             <p className="text-gray-700">Google</p>
             <p className="text-gray-600">Mountain View, CA</p>
@@ -26,7 +26,7 @@ const Home = () => {
         <h3 className="text-2xl font-bold mb-4">Featured Companies</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Add Company Card Components Here */}
-          <div className="bg-white shadow-md rounded-lg p-4 text-center">
+          <div className=" shadow-md bg-slate-500 rounded-lg p-4 text-center">
             <h4 className="text-xl font-bold mb-2">Google</h4>
             <p className="text-gray-700">Technology Company</p>
             <a href="/company/1" className="text-blue-600 hover:underline">View Details</a>
